@@ -1,0 +1,110 @@
+#mainModal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.1);
+    .wrap{
+        width: 100%;
+        height: 100%;
+        .container{
+            width: 100%;
+            height: 208px;
+            max-width: 1542px;
+            margin: 0 auto;
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            .content-modal{
+                width: 100%;
+                .box1{
+                    width: 100%;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    h1{
+                        font-size: 55px;
+                        color: #fff;
+                        
+                    }
+                    padding: 0 0 60px 0;
+                }
+                .box2{
+                    width: 100%;
+                    height:78px;
+                    form{
+                        width: 100%;
+                        height: 100%;
+                        .inner-box-wrap{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            text-align: center;
+                            //justify-content: center;
+                            align-items: center;
+                            margin: 0 0 0 250px;
+                            .inner-box1{
+                                width: 228px;
+                                height: 78px;
+                                padding: 20px 46px;
+                                span{
+                                    color: #fff;
+                                    font-size: 15px;
+                                    display: block;
+                                }
+                                input{
+                                    color: #999;
+                                    font-size: 15px;
+                                }
+                            }
+                            .inner-box2{
+                                width: 228px;
+                                height: 78px;
+                                padding: 20px 46px;
+                                span{
+                                    color: #fff;
+                                    display: block;
+                                    font-size: 15px;
+                                }
+                                input{
+                                    color: #999;
+                                    font-size: 15px;
+                                }
+                            }
+                            .inner-box3{
+                                width: 323px;
+                                height: 100%;
+                                padding: 20px 0 20px  0 ;
+                                span{
+                                    font-size: 15px;
+                                    color: #fff;
+                                    padding: 0 15px;
+
+                                }
+                            }
+                            .inner-box4{
+                                button{
+                                    width: 222px;
+                                    height: 65px;
+                                    border: 0;
+                                    background-color: #fff;
+                                    color: #000;
+                                    font-size: 16px;
+                                    border-radius: 3px;
+                                    transition: all 0.3s;
+                                    &:hover{
+                                        background-color: #000;
+                                        color: #fff;
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

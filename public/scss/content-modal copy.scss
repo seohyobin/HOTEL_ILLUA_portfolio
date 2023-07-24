@@ -1,0 +1,102 @@
+#mainModal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.1);
+    .wrap{
+        width: 100%;
+        height: 100%;
+        .container{
+            width: 100%;
+            height: 208px;
+            max-width: 1542px;
+            margin: 0 auto;
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            .content-modal{
+                width: 100%;
+                .box1{
+                    width: 100%;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    h1{
+                        font-size: 55px;
+                        color: #fff;
+                        
+                    }
+                    padding: 0 0 50px 0;
+                }
+                .box2{
+                    width: 100%;
+                    height:78px;
+                    form{
+                        width: 100%;
+                        height: 100%;
+                        ul{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                            li{
+                                width: 200px;
+                                height: 100%;
+
+                                .reserve-form-label{
+                                    width: 222px;
+                                    height: 78px;
+
+                                    span{ 
+                                        color: #fff;
+                                        font-size: 15px;
+                                    }
+                                   
+                                }
+                                .reserve-form-input{
+                                    position: absolute;
+                                    bottom: 30px;
+                                    left: 220px;
+
+                                    .input{
+                                        color: #fff;
+                                        font-size: 15px;
+                                    }
+                                }
+                                .reserve-form-input2{
+                                    position: absolute;
+                                    bottom: 30px;
+                                    left: 422px;
+
+                                    .input{
+                                        color: #fff;
+                                        font-size: 15px;
+                                    }
+                                }
+                                button{
+                                    width: 222px;
+                                    height: 65px;
+                                    border: 0;
+                                    background-color: #fff;
+                                    color: #000;
+                                    font-size: 16px;
+                                    border-radius: 3px;
+                                    transition: all 0.3s;
+                                    &:hover{
+                                        background-color: #000;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

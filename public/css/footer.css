@@ -1,0 +1,60 @@
+#wrap #footer {
+  width: 100%;
+  height: 798px;
+  background: url(../img/footer-vid-thumb.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#wrap #footer .container {
+  width: 100%;
+  height: 100%;
+  padding: 146px 0 180px 0;
+  margin: 0 180px;
+}
+#wrap #footer .container .gap {
+  width: 100%;
+}
+#wrap #footer .container .gap .title {
+  width: 100%;
+  height: 75px;
+  margin: 0 0 220px 0;
+}
+#wrap #footer .container .gap .title img {
+  width: 180px;
+  height: 75px;
+}
+#wrap #footer .container .gap .content {
+  width: 100%;
+  max-width: 1542px;
+}
+#wrap #footer .container .gap .content ul {
+  width: 100%;
+}
+#wrap #footer .container .gap .content ul li .top-box {
+  text-align: right;
+  padding-bottom: 43px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+#wrap #footer .container .gap .content ul li .top-box a span {
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#wrap #footer .container .gap .content ul li .top-box a span.first-last {
+  padding: 8px 30px 8px 0;
+}
+#wrap #footer .container .gap .content ul li .bottom-box {
+  display: flex;
+  padding: 55px 0 0 0;
+  justify-content: space-between;
+}
+#wrap #footer .container .gap .content ul li .bottom-box p {
+  color: rgba(255, 255, 255, 0.5);
+}
+#wrap #footer .container .gap .content ul li .bottom-box div span {
+  color: rgba(255, 255, 255, 0.5);
+}
+#wrap #footer .container .gap .content ul li .bottom-box div span i {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 10px 0 10px;
+}

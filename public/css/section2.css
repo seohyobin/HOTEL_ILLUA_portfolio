@@ -1,0 +1,99 @@
+#wrap #section2 {
+  width: 100%;
+  height: 969px;
+  background-color: #fff;
+}
+#wrap #section2 .container {
+  width: 100%;
+  max-width: 1542px;
+  margin: 0 auto;
+}
+#wrap #section2 .container .gap {
+  width: 100%;
+  padding: 215px 0 0 0;
+}
+#wrap #section2 .container .gap .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 40px 0;
+}
+#wrap #section2 .container .gap .title h2 {
+  font-size: 48px;
+  color: #000;
+}
+#wrap #section2 .container .gap .title a span {
+  font-size: 14px;
+}
+#wrap #section2 .container .gap .title a span::after {
+  content: "";
+  width: 81.844px;
+  height: 1px;
+  background-color: #000;
+  background-size: auto;
+  position: absolute;
+  bottom: -515px;
+  right: 182px;
+}
+#wrap #section2 .container .gap .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#wrap #section2 .container .gap .content .s2-box {
+  width: 33.33333%;
+}
+#wrap #section2 .container .gap .content .s2-box ul {
+  width: 100%;
+}
+#wrap #section2 .container .gap .content .s2-box ul li {
+  width: 100%;
+}
+#wrap #section2 .container .gap .content .s2-box ul li .imgbox {
+  overflow: hidden;
+  margin: 10px;
+}
+#wrap #section2 .container .gap .content .s2-box ul li .imgbox a {
+  width: 100%;
+}
+#wrap #section2 .container .gap .content .s2-box ul li .imgbox a img {
+  width: 485.938px;
+  height: 285.109px;
+  transition: all 0.5s;
+}
+#wrap #section2 .container .gap .content .s2-box ul li .imgbox a img:hover {
+  transform: scale(1.05);
+}
+#wrap #section2 .container .gap .content .s2-box ul li h3 {
+  padding: 39px 0 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+#wrap #section2 .container .gap .content .s2-box ul li p {
+  font-size: 16px;
+  padding: 15px 0 0 0;
+  color: #666;
+}
+#wrap #section2 .container .gap .content .s2-box ul li hr {
+  width: 485.938px;
+  margin: 20px 0 20px 0;
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+}
+#wrap #section2 .container .gap .content .s2-box ul li.reserve {
+  width: 100%;
+  height: 100%;
+}
+#wrap #section2 .container .gap .content .s2-box ul li.reserve b {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-right: 31px;
+}
+#wrap #section2 .container .gap .content .s2-box ul li.reserve span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+}

@@ -1,0 +1,128 @@
+#wrap{
+    #section4{
+        width: 100%;
+        height: 969px;
+        background-color: #fff;
+        .container{
+            width: 100%;
+            max-width: 1542px;
+            margin: 0 auto;
+            .gap{
+                padding: 215px 0 0 0;
+                .content{
+                    width: 100%;
+                    .text-box{
+                        width: 100%;
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            > li{
+                                padding-bottom: 28px;
+                                h2{
+                                    font-size: 48px;
+                                    color: #000;
+                                    margin: 0 30px 0 0;
+                                }
+                           
+                                    
+                                span{ 
+                                    font-size: 16px;
+                                    color: #999;
+                                    i{
+                                        width: 4px;
+                                        height: 4px;
+                                        color: #999;
+                                        border-radius: 50%;
+                                    }
+                                }
+                          
+                                .view{
+                                    font-size: 14px;
+                                    color: #000;
+                                   margin-left:490px ;
+                                }
+                            }
+                        }
+                    }
+                    .slide-box{
+                        width: 100%;
+                        max-width: 1542px;
+                        height: 100%;
+                        position: relative;
+                        .col-gap{
+                            
+                            .slide-container{
+                                width: 100%;
+                                position: relative;
+                                .slide-view{
+                                    width: 100%;
+                                    overflow: hidden;
+                                    position: relative;
+                                    .slide-wrap{
+                                        display: flex;
+                                        width: 100% * 5;
+                                        position: relative;
+                                        height: 100%;
+                                        .slide{ 
+                                            position: relative;
+                                            z-index: 1;
+                                            width: 100%;
+                                            height: 528.953px;
+                           
+                    
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .slide-bottom{
+                        width: 100%;
+                        position: relative;
+                        .bottom-container{
+                            position: absolute;
+                            z-index: 2;
+                            bottom:0 ;
+                            left:0 ;
+                            width: 100%;
+                            max-width: 1542px;
+                            height: 140px;
+                            .bottom-gap{
+                                width: 100%;
+                                height: 60px;
+                                padding: 40px 60px 0 60px;
+                                .bottom-box123{
+                                   width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-evenly;
+                                    .bottom-box{
+                                        width: 431.938px;
+                                        height: 100%;
+                                        hr{
+                                            width: 100%;
+                                            height: 2px;
+                                            margin-bottom: 30px;
+                                            background-color: rgba(255,255,255,0.3);
+                                            border: 0;
+
+                                        }
+                                        a{
+                                            color: #fff;
+                                            font-size: 18px;
+                                            font-weight: 600;
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
